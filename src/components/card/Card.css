@@ -1,0 +1,45 @@
+
+.card{
+    text-align: center;
+    border: none;
+}
+.card-title1{
+    font-size: 50px;
+}
+.card-title2{
+    font-size: 30px;
+}
+.card-text{
+    font-size: 20px;
+    font-family: 'Hubballi', cursive;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    height: 430px;
+  }
+.desc-card{
+    background-image: linear-gradient(rgb(50, 49, 53),rgb(165, 165, 165));
+    margin:0;
+    text-align: center;
+    padding:20px 200px;
+    color: antiquewhite;
+}
+
+@media only screen and (max-width: 600px) {
+   .card-title{
+       font-size: 40px;
+   }
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    height: auto;
+  }
+  .desc-card{
+    padding:20px 80px;
+}
+  }

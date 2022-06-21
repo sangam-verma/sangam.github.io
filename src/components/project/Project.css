@@ -1,0 +1,41 @@
+.project-container{
+    text-align: center;
+   display: flex;
+   justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .project-container{
+        display: block;
+    }
+}
+.project-container ul{
+    margin: 0;
+    
+}
+.project-container h5{
+    font-family: 'Hubballi', cursive;
+}
+.project-div{
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 1.7rem; 
+    border-radius: 2rem;
+    background: transparent;
+    transition: all 2000ms cubic-bezier(.23, 1, 0.32, 1);
+    box-shadow: 5px 10px 18px #c8c7c7;
+}
+.project-list{
+    font-size: 17px;
+    display: block;
+    padding: 0;
+   margin-top: 2rem;
+}
+.project-list li{
+    cursor: pointer;
+}
+.project-div:hover{
+    background-image: linear-gradient(rgb(50, 49, 53),rgb(165, 165, 165));
+    color: #ffffff;
+}

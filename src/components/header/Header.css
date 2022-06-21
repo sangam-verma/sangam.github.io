@@ -1,0 +1,120 @@
+
+
+.logo{
+    font-family: Viner Hand ITC;
+}
+
+.list-items{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.header-container{
+  text-align: center;
+}
+.header-container h5{
+   font-family:'Times New Roman', Times, serif;
+}
+@media  screen and (max-width:600px) {
+  .header-container h1{
+    font-size: 30px;
+ }
+}
+.button{
+  padding:10px 10px 10px 10px;
+}
+.button-1{
+  background-color: rgb(50, 49, 53) !important;
+  border: 2px solid rgb(50, 49, 53) !important;
+  color: #fafafa !important;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+.button-1:hover{
+  color: rgb(0, 0, 0) !important;
+  background-color: transparent !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+ 
+}
+
+
+/* CSS */
+.button-39 {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 2rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-39:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-39:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-39:focus-visible {
+  box-shadow: none;
+}
+
+
+
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: rgb(50, 49, 53);
+  border: 2px solid rgb(50, 49, 53);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #fafafa;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin:0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
